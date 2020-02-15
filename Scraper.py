@@ -29,6 +29,7 @@ def get_items_url():
 
 
 get_items_url()
+driver.close()
 #download_images(images_url)
 #f.close()
 
