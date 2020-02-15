@@ -1,0 +1,139 @@
+***Cereals***
+Nestle Shreddies Original Cereal 675G 3.00
+Kellogg's Krave Milk Chocolate Cereal 375G 0.44
+Nestle Cheerios Honey Cereal 375G 3.00
+Weetabix Cereal 48 Pack 0.80
+Kellogg's Coco Pops Cereal 720G 2.60
+Kellogg's Krave Chocolate Hazelnut Cereal 375G 0.69
+Kellogg's Rice Krispies Multigrain Cereal 350G 4.80
+Tesco Wheat Biscuits Cereal 24 Pack 0.10
+Tesco Choco Snaps Cereal 350G 4.00
+Tesco Malt Wheats Cereal 750G 0.56
+Kellogg's Crunchy Nut Corn Flakes Cereal 500G 3.00
+Tesco Rice Snaps Cereal 375G 0.80
+Kellogg's Special K Red Berries Cereal 500G 2.90
+Kellogg's Special K Original Cereal 750G 0.83
+Nestle Cheerios Multigrain Cereal 600G 1.60
+Tesco Choco Hoops Cereal 375G 0.07
+Nestle Shredded Wheat Bitesize Cereal 750G 1.00
+Tesco Honey Nut Corn Flakes Cereal 500G 0.29
+Kellogg's Crunchy Nut Chocolate Clusters Cereal 450G 1.20
+Kellogg's Rice Krispies Cereal 700G 0.16
+Tesco Frosted Flakes Cereal 500G 3.00
+Tesco Pillows Choco-Nut Cereal 375G 0.60
+Kellogg's Crunchy Nut 840G 1.00
+Nestle Cookie Crisp Cereal 500G 2.00
+Kellogg's Frosties Cereal 750G 0.40
+Tesco Crunchy Cookie Cereal 325G 2.90
+Tesco Blueberry Wheats Cereal 500G 0.39
+Tesco Honey Hoops Cereal 375G 1.30
+Weetabix Crispy Minis Chocolate Chip Cereal 600G 0.40
+Kellogg's Crunchy Nut Clusters Honey Cereal 450G 1.80
+Quaker Kids Oatie Mix Up Strawberry Cereal 400G 0.36
+Tesco Special Flakes Red Berry Cereal 375G 1.00
+Nestle Shreddies Frosted Cereal 500G 0.27
+Tesco Honey Nut Clusters Milk Chocolate Cereal 500G 3.00
+Tesco Wheat Biscuits Cereal 48 Pack 0.50
+Nestle Golden Nuggets Cereal 375G 2.90
+Tesco Low Fat Special Flakes Cereal 500G 0.64
+Tesco Honey Nut Clusters Cereal 500G 2.75
+Jordans Country Crisp Chunky Nuts Cereal 500G 0.69
+Tesco Raisin Wheats Cereal 500G 1.25
+Kellogg's Frosted Wheats Cereal 600G 0.33
+Tesco Apricot Wheats Cereal 500G 2.80
+Tesco Strawberry Crisp Cereal 500G 0.56
+Nestle Cheerios Multigrain Cereal 375G 1.50
+Tesco Corn Flakes Cereal 500G 0.30
+Kellogg's Corn Flakes Cereal 450G 2.50
+Tesco Corn Flakes Cereal 750G 0.75
+Ms Molly's Chocolate Chip Cereal Bars 126G 0.10
+Tesco Nut & Maple Crisp Cereal 500G 0.61
+Tesco Chocolate Crisp Cereal 500G 0.48
+Ms Molly's 6 White Chocolate & Strawberry Cereal Bars 126G 1.50
+Shredded Wheat Red Berries & Vanilla 450G 0.30
+Tesco Pillows With Milk Chocolate Filling 375G 1.50
+Kellogg's Krave Choco Roulette 375G 0.30
+Jordans Crunchy Granola Raisin Almond 750G 0.61
+Stockwell & Co 24 Wheat Biscuits 432G 0.48
+Kellogg's Krave Milk Chocolate Cereal 850G 3.00
+Nestle Shreddies Original Cereal 415G 0.67
+Fibre One Peanut Butter Popcorn Bars 4X21g 1.10
+Jordans Frusli Wild Berry 6X30g 0.29
+Nestle Shreddies Coco Cereal 750G 3.00
+Fibre One Milk Chocolate Popcorn Bars 4 X 21G 0.80
+Kellogg's Krave Chocolate & Hazelnut Cereal 850G 3.00
+Nutella B-Ready 6 X 22G 0.40
+Kellogg's Corn Flakes 720G 5.00
+Jordans Frusli Blueberry Burst 6X30g 0.59
+Kellogg's Rice Krispies Cereal 510G 2.10
+Kellogg's Special K Original Cereal 500G 0.51
+Dorset Cereals Honey Granola 500G 1.99
+Tesco Corn Flakes Cereal 750G 0.75
+Ms Molly's Chocolate Chip Cereal Bars 126G 0.10
+Tesco Nut & Maple Crisp Cereal 500G 0.61
+Tesco Chocolate Crisp Cereal 500G 0.48
+Ms Molly's 6 White Chocolate & Strawberry Cereal Bars 126G 1.50
+Shredded Wheat Red Berries & Vanilla 450G 0.30
+Tesco Pillows With Milk Chocolate Filling 375G 1.50
+Kellogg's Krave Choco Roulette 375G 0.30
+Jordans Crunchy Granola Raisin Almond 750G 0.61
+Stockwell & Co 24 Wheat Biscuits 432G 0.48
+Kellogg's Krave Milk Chocolate Cereal 850G 3.00
+Nestle Shreddies Original Cereal 415G 0.67
+Fibre One Peanut Butter Popcorn Bars 4X21g 1.10
+Jordans Frusli Wild Berry 6X30g 0.29
+Nestle Shreddies Coco Cereal 750G 3.00
+Fibre One Milk Chocolate Popcorn Bars 4 X 21G 0.80
+Kellogg's Krave Chocolate & Hazelnut Cereal 850G 3.00
+Nutella B-Ready 6 X 22G 0.40
+Kellogg's Corn Flakes 720G 5.00
+Jordans Frusli Blueberry Burst 6X30g 0.59
+Kellogg's Rice Krispies Cereal 510G 2.10
+Kellogg's Special K Original Cereal 500G 0.51
+Dorset Cereals Honey Granola 500G 1.99
+Kellogg's White Chocolate Coco Pops Cereal 480G 2.00
+Kellogg's Special K Peach & Apricot Cereal 360G 0.42
+Nestle Shredded Wheat Cereal 16 Pack 360G 3.00
+Quaker Oat So Simple Golden Syrup Porridge 57G 0.83
+Tesco Instant Oats Golden Syrup Porridge 55G 2.00
+Tesco Salted Caramel Munch Bars 192G 0.56
+Belvita Soft Filled Chocolate Biscuits 250G 1.00
+Tesco Super Berry Granola 500G 1.76
+Nature Valley Crunchy Granola Canadian Maple Syrup Bar 5X42g 0.50
+Eat Natural Protein Bar 3 X 45G 0.91
+Tesco Instant Oats Original Porridge 55G 0.89
+Nature Valley Crunchy Granola Oats & Chocolate Bars 5X42g 0.46
+Tesco Chocolate & Caramel Crispy Slice 95G 2.79
+Belvita Honey & Nut Biscuits 225G 1.12
+Kellogg's Crunchy Nut Clusters Peanut Butter Cereal 525G 1.97
+Eat Natural Dark Chocolate Cranberry & Macadamia Bars 3X45g 0.39
+Belvita Chocolate Chip Biscuits 225G 1.19
+Tesco Tropical Fruits Granola 1Kg 0.57
+Tesco Honey & Almond Granola 500G 2.00
+Stoats Blueberry Honey Porridge Bar Multipacks4x50g 1.49
+Eat Natural Yogurt Almond & Apricot Bars 3X50g 0.50
+Quaker Porridge To Go Golden Syrup 2X55g 0.91
+Malt-O-Meal Marshmallow Mateys Cereal 320G 1.19
+Quaker Oat So Simple Apple & Blueberry Porridge 57G 1.00
+Lucky Charms Value Cereal 422G 1.76
+Tesco Instant Oats Blueberry Apple Porridge 55G 4.00
+Belvita Soft Filled Strawberry Biscuits 250G 0.95
+Tesco Instant Oats Berry Cherry Porridge 55G 0.50
+Quaker Oat Granola Raisin 500G 0.91
+Quaker Oat So Simple Sweet Cinnamon Porridge Pot 57G 2.79
+Tesco 5 Chocolate & Raspberry Bars 115G 1.12
+Dorset Cereals Oat Granola 550G 0.50
+Kellogg's Pop Tarts Chocolate 400G 0.91
+Alpen Light Bar Salted Caramel 5X19g 2.00
+Fibre One 90 Calorie Cinnamon Drizzle Squares 5X24g 0.40
+Tesco Instant Oats Cinnamon Porridge 55G 1.00
+Jordans Simply Granola 750G 1.76
+Quaker Protein Golden Syrup Porridge 63G 1.00
+Lizis Low Sugar Granola 500G 0.87
+Kellogg's Pop Tarts Strawberry Sensation 400G 2.50
+Tesco Finest Super Nutty Granola 500G 0.46
+Belvita Golden Oats Biscuits 225G 2.70
+Tesco Forest Fruits Yogurt Topped Slices 180G 0.68
+Wk Kellogg's No Added Sugar Coconut Granola 570G 1.44
+Quaker Porridge To Go Mixed Berries 2X55g 1.20
+Fuel 10K Chocolate Loaded Granola 400G 0.50
