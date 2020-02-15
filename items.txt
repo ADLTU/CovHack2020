@@ -1,7 +1,6 @@
 Chicken-927-20
 Beef-220-5
 Lamb-53-2
-Turkey-38-1
 Pork-150-4
 Cereals-301-7
 Rice-257-6
