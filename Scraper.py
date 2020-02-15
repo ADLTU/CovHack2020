@@ -6,12 +6,20 @@ from selenium import webdriver
 
 
 driver = webdriver.Safari()
-URL = 'https://www.tesco.com/groceries/en-GB/search?query=*&page=1'
-#Save_to = "/Applications/YOLOv3/Gun_Images"
-#f = open("images.txt","a")
+URL = 'https://www.tesco.com/groceries/en-GB/search?query='
+file_path = 'items.txt'
 
 
-def get_items_url():
+def get_items(file_path, URL):
+    Full_URLS = []
+    ff = open("file_path", "r")
+    for f in ff:
+        it, nits, pgs = f.split('-')
+        for i in range(pgs)
+            Full_URLS.append(URL+it+"&page="+i)
+    return Full_URLS
+
+def get_items_url(URL):
 
     driver.get(URL)
     a = input("press enter")
@@ -27,8 +35,8 @@ def get_items_url():
         items.append(names[i].find(text=True) + " " + prices[i].find(text=True))
 
 
-
-get_items_url()
+Full_URLS = get_items(file_path, URL)
+get_items_url(Full_URLS)
 driver.close()
 #download_images(images_url)
 #f.close()
