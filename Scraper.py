@@ -14,7 +14,7 @@ URL = 'https://www.tesco.com/groceries/en-GB/search?query=*&page=1'
 def get_items_url():
 
     driver.get(URL)
-    a = input("press enter")
+    # a = input("press enter")
     page = driver.page_source
 
     soup = Soup(page, 'lxml')
