@@ -22,7 +22,7 @@ def get_items(file_path, URL):
 def get_items_url(URL):
 
     driver.get(URL)
-    a = input("press enter")
+    # a = input("press enter")
     page = driver.page_source
 
     soup = Soup(page, 'lxml')

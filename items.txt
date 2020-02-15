@@ -1,0 +1,21 @@
+Chicken-927-20
+Beef-220-5
+Lamb-53-2
+Turkey-38-1
+Pork-150-4
+Cereals-301-7
+Rice-257-6
+Pasta-293-7
+Noodles-265-6
+Cooking Sauces-131-3
+Coffee-192-4
+Tea-205-5
+Biscuits-265-6
+Fruits-284-6
+Vegtables-513-11
+Bread-387-9
+Milk-426-9
+Butter-104-3
+Cheese-645-14
+Condiments-32-1
+Spices-192-4
