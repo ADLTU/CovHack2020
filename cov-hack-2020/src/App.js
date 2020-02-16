@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Card from './Cards'
 
-function App() {
-  state = [ 'Chicken', 'Beef', 'Lamb', 'Pork', 'Cereals', 'Rice', 'Pasta', 'Noodles']
+class App extends Component {
 
-  return (
-    <div className="App">
-       { this.state.map(function(item, i){
-          return <h1 key={i}> {item}</h1>
-        })
-       }
-    </div>
-  );
+  state = {
+    productType: [
+      { name: 'Chicken', isActive: false },
+      { name: 'Beef', isActive: false },
+      { name: 'Lamb', isActive: false },
+      { name: 'Cereal', isActive: false }
+    ]
+  }
+
+  render() {
+    console.log(this.state.productType)
+    return (
+      <div className="App">
+        <Card productType={this.state.productType} />
+      </div>
+    )
+  }
 }
+
 
 export default App;
