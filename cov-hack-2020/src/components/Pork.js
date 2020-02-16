@@ -5,11 +5,10 @@ import {Link} from "react-router-dom";
 class Main_Pork extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Tesco Pork Loin Joint', isActive: false },
+      { name: 'Tesco Large Vacuum Pack Pork Shoulder Joint', isActive: false },
+      { name: 'Tesco Large Pork Leg Joint', isActive: false },
+      { name: 'Tesco Pork Crackling Leg 1Kg', isActive: false }
     ]
   }
 

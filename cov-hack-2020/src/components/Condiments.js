@@ -5,11 +5,11 @@ import {Link} from "react-router-dom";
 class Main_Chicken extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Heinz Top Down Squeezy Tomato Ketchup Sauce', isActive: false },
+      { name: 'Hp Top Down Brown Sauce', isActive: false },
+      { name: 'Tesco Sweet Chilli Dipping Sauce', isActive: false },
+      { name: 'Nutella Hazelnut Chocolate Spread', isActive: false },
+      { name: 'Hartleys Best Strawberry Seedless Jam', isActive: false }
     ]
   }
 

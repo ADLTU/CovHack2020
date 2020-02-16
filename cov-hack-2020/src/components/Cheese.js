@@ -5,11 +5,11 @@ import {Link} from "react-router-dom";
 class Main_Chicken extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Pilgrims Choice Mature Cheddar Cheese ', isActive: false },
+      { name: 'Cathedral City Mature Cheddar Cheese', isActive: false },
+      { name: 'Cathedral City Extra Mature Cheddar Cheese', isActive: false },
+      { name: 'Tesco British Medium Cheddar Cheese', isActive: false },
+      { name: 'Pilgrims Choice Extra Mature Cheddar Cheese', isActive: false }
     ]
   }
 

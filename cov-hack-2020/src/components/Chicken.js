@@ -5,11 +5,10 @@ import {Link} from "react-router-dom";
 class Main_Chicken extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Tesco Finest British Cornfed Free Range Whole Chicken', isActive: false },
+      { name: 'Tesco British Large Whole Chicken', isActive: false },
+      { name: 'Tesco British Chicken Breast Portions', isActive: false },
+      { name: 'Tesco 2 British Chicken Breast Fillets', isActive: false }
     ]
   }
 
@@ -41,9 +40,9 @@ const Cards_Chicken = ({ productType, redirect }) => {
             <h1>
 
             <Link to={'/'}>
-                <Button> Go Back       </Button>
+                <Button> Go Back </Button>
             </Link>
-                Butter Options
+                Chicken Menu
             </h1>
             <Row>
                 {cards(productType)}

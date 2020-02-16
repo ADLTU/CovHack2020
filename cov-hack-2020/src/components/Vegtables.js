@@ -2,27 +2,27 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Noodles extends Component {
+class Main_Vegtables extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Tesco Mixed Vegetables', isActive: false },
+      { name: 'Tesco Peas Broccoli & Green Beans', isActive: false },
+      { name: 'Tesco Carrot Cauliflower & Broccoli', isActive: false },
+      { name: 'Tesco Tender Vegetable Medley', isActive: false },
+      { name: 'Tesco Traditional Sliced Runner Beans', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Noodles productType={this.state.productType} />
+        <Cards_Vegtables productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Noodles = ({ productType, redirect }) => {
+const Cards_Vegtables = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -31,6 +31,7 @@ const Cards_Noodles = ({ productType, redirect }) => {
                 <Col sm="3">
                     <Card body md="auto">
                         <CardTitle> {product.name}</CardTitle>
+                        <Button>Buy</Button>
                     </Card>
                 </Col>
             )
@@ -54,4 +55,4 @@ const Cards_Noodles = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Noodles;
+export default Main_Vegtables;

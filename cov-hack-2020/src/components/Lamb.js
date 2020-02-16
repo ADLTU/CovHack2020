@@ -2,27 +2,27 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Milk extends Component {
+class Main_Lamb extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Tesco Lamb Whole Leg Joint', isActive: false },
+      { name: 'Tesco Lamb Half Leg Joint', isActive: false },
+      { name: 'Tesco Lamb Half Shoulder Joint', isActive: false },
+      { name: 'Tesco Lamb Diced Leg 300G', isActive: false },
+      { name: 'Tesco Lamb Whole Shoulder Joint', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Milk productType={this.state.productType} />
+        <Cards_Lamb productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Milk = ({ productType, redirect }) => {
+const Cards_Lamb = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -54,4 +54,4 @@ const Cards_Milk = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Milk;
+export default Main_Lamb;

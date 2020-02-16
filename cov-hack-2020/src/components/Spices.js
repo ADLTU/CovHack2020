@@ -2,27 +2,26 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Vegtables extends Component {
+class Main_Spices extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Schwartz Paprika', isActive: false },
+      { name: 'Schwartz Garlic Granules', isActive: false },
+      { name: 'Tesco Garam Masala Spice Blend', isActive: false },
+      { name: 'Schwartz Perfect Shake Moroccan Seasoning', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Vegtables productType={this.state.productType} />
+        <Cards_Spices productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Vegtables = ({ productType, redirect }) => {
+const Cards_Spices = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -54,4 +53,4 @@ const Cards_Vegtables = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Vegtables;
+export default Main_Spices;

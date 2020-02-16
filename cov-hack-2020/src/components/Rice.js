@@ -5,11 +5,9 @@ import {Link} from "react-router-dom";
 class Main_Rice extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Tesco Microwave Basmati Rice', isActive: false },
+      { name: 'Tesco Easy Cook Long Grain Rice', isActive: false },
+      { name: 'Tesco Microwave Wholegrain Rice', isActive: false }
     ]
   }
 

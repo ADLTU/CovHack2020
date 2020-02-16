@@ -2,27 +2,26 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Lamb extends Component {
+class Main_Pasta extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Tesco Fusilli Pasta Twists', isActive: false },
+      { name: 'Hearty Food Co. Penne Pasta', isActive: false },
+      { name: 'Tesco Spaghetti Pasta', isActive: false },
+      { name: 'Tesco Linguine Pasta', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Lamb productType={this.state.productType} />
+        <Cards_Pasta productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Lamb = ({ productType, redirect }) => {
+const Cards_Pasta = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -54,4 +53,4 @@ const Cards_Lamb = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Lamb;
+export default Main_Pasta;

@@ -2,27 +2,27 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Pasta extends Component {
+class Main_Cereals extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Nestle Cheerios Honey Cereal ', isActive: false },
+      { name: 'Tesco Choco Snaps Cereal ', isActive: false },
+      { name: 'Nestle Cookie Crisp Cereal ', isActive: false },
+      { name: 'Kelloggs Krave Milk Chocolate Cereal', isActive: false },
+      { name: 'Nestle Shreddies Original Cereal ', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Pasta productType={this.state.productType} />
+        <Cards_Cereals productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Pasta = ({ productType, redirect }) => {
+const Cards_Cereals = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -54,4 +54,4 @@ const Cards_Pasta = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Pasta;
+export default Main_Cereals;

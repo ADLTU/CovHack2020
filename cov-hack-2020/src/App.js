@@ -1,28 +1,29 @@
 import React, {Component} from 'react';
 import Main from './Main'
-import Chicken from './Chicken'
-import Beef from './Beef'
-import Lamb from './Lamb'
-import Pork from './Pork'
-import Cereals from './Cereals'
-import Rice from './Rice'
-import Pasta from './Pasta'
-import Noodles from './Noodles'
-import Coffee from './Coffee'
-import Tea from './Tea'
-import Biscuits from './Biscuits'
-import Fruits from './Fruits'
-import Vegtables from './Vegtables'
-import Bread from './Bread'
-import Milk from './Milk'
-import Butter from './Butter'
-import Cheese from './Cheese'
-import Condiments from './Condiments'
-import Spices from './Spices'
+import Chicken from './components/Chicken'
+import Beef from './components/Beef'
+import Lamb from './components/Lamb'
+import Pork from './components/Pork'
+import Cereals from './components/Cereals'
+import Rice from './components/Rice'
+import Pasta from './components/Pasta'
+import Noodles from './components/Noodles'
+import Coffee from './components/Coffee'
+import Tea from './components/Tea'
+import Biscuits from './components/Biscuits'
+import Fruits from './components/Fruits'
+import Vegtables from './components/Vegtables'
+import Bread from './components/Bread'
+import Milk from './components/Milk'
+import Butter from './components/Butter'
+import Cheese from './components/Cheese'
+import Condiments from './components/Condiments'
+import Spices from './components/Spices'
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router";
 
 const hist = createBrowserHistory();
+
 
 class App extends Component {
   render() {
