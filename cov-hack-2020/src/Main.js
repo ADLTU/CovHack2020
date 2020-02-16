@@ -25,13 +25,14 @@ class Main extends Component {
       { name: 'Cheese',     isActive: false, img: require('./assets/cheese.jpg')    },
       { name: 'Condiments', isActive: false, img: require('./assets/condiments.jpg')},
       { name: 'Spices',     isActive: false, img: require('./assets/spices.jpg')    },
-    ]
+    ],
+      cart: []
   }
 
   render() {
     return (
       <div className="App">
-        <Cards productType={this.state.productType} />
+        <Cards productType={this.state.productType} cart={this.state.cart} />
       </div>
     )
   }

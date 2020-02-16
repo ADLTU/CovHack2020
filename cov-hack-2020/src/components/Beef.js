@@ -1,6 +1,7 @@
-import React, {Component} from 'react';
-import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
+import React, {Component, useState} from 'react';
+import { Container, Card, Button, CardTitle, Row, Col, Toast, ToastBody, ToastHeader } from 'reactstrap';
 import {Link} from "react-router-dom";
+import Toaster from './Cart'
 
 class Main_Chicken extends Component {
   state = {
@@ -24,7 +25,28 @@ class Main_Chicken extends Component {
   }
 }
 
-const Cards_Chicken = ({ productType, redirect }) => {
+const Cards_Chicken = ({ productType, cart }) => {
+
+    const [show, setShow] = useState(false)
+
+
+    // const toaster = (name) => {
+    //     console.log("hello")
+    //
+    //     return (
+    //         <div className="p-4 bg-info my-2 rounded">
+    //             toggle
+    //                 <Toast isOpen={show}>
+    //                     toggle
+    //                     <ToastHeader toggle={toggle}>Add To Cart</ToastHeader>
+    //                     <ToastBody>{name} added to cart</ToastBody>
+    //                 </Toast>
+    //         </div>
+    //     )
+    // }
+
+    const toggle = () => setShow(!show)
+
 
     const cards = (productType) => {
 
@@ -33,7 +55,8 @@ const Cards_Chicken = ({ productType, redirect }) => {
                 <Col sm="3">
                     <Card body md="auto">
                         <CardTitle> {product.name}</CardTitle>
-                        <Button> Add To Cart </Button>
+                        <Button onClick={ toggle() }> Add To Cart </Button>
+                        { show === true ?  <Toaster toggle={toggle} name={product.name} show={show} /> : null}
                     </Card>
                 </Col>
             )
