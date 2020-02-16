@@ -1,16 +1,15 @@
 import React, {Component, useState} from 'react';
 import {Toast, ToastBody, ToastHeader} from "reactstrap";
 
-const Toaster = ({ show, toggle , name }) => {
+class Cart extends Component {
 
-        return (
-            <div className="p-4 bg-info my-2 rounded">
-                <Toast isOpen={show}>
-                    <ToastHeader toggle={toggle}>Add To Cart</ToastHeader>
-                    <ToastBody>{name} added to cart</ToastBody>
-                </Toast>
-            </div>
-        )
+    state = {
+        cart: [],
+    };
 }
+    const add_cart = ({value }) => {
+        console.log(this.state.cart)
+        this.state.cart.concat(value)
+    }
 
-export default Toaster;
+export default Cart;

@@ -1,52 +1,27 @@
-import React, {Component, useState} from 'react';
-import { Container, Card, Button, CardTitle, Row, Col, Toast, ToastBody, ToastHeader } from 'reactstrap';
+import React, {Component} from 'react';
+import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
-import Toaster from './Cart'
+const list = [];
 
-class Main_Chicken extends Component {
+class Main_Beef extends Component {
   state = {
     productType: [
-      { name: 'Roasting Joint', isActive: false },
-      { name: 'Diced Beef', isActive: false },
-      { name: 'Beef Slices', isActive: false },
-      { name: 'Steak', isActive: false },
-      { name: 'Beef Mince', isActive: false },
-        { name: 'Beef Burger', isActive: false }
-
+      { name: 'Dark Chocolate Biscuits', isActive: false },
+      { name: 'Milk Chocolate Biscuits', isActive: false },
+      { name: 'Sandwich Biscuits', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Chicken productType={this.state.productType} />
+        <Cards_Beef productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Chicken = ({ productType, cart }) => {
-
-    const [show, setShow] = useState(false)
-
-
-    // const toaster = (name) => {
-    //     console.log("hello")
-    //
-    //     return (
-    //         <div className="p-4 bg-info my-2 rounded">
-    //             toggle
-    //                 <Toast isOpen={show}>
-    //                     toggle
-    //                     <ToastHeader toggle={toggle}>Add To Cart</ToastHeader>
-    //                     <ToastBody>{name} added to cart</ToastBody>
-    //                 </Toast>
-    //         </div>
-    //     )
-    // }
-
-    const toggle = () => setShow(!show)
-
+const Cards_Beef = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -55,8 +30,8 @@ const Cards_Chicken = ({ productType, cart }) => {
                 <Col sm="3">
                     <Card body md="auto">
                         <CardTitle> {product.name}</CardTitle>
-                        <Button onClick={ toggle() }> Add To Cart </Button>
-                        { show === true ?  <Toaster toggle={toggle} name={product.name} show={show} /> : null}
+                        <Button> Add To Cart </Button>
+
                     </Card>
                 </Col>
             )
@@ -69,7 +44,7 @@ const Cards_Chicken = ({ productType, cart }) => {
             <Link to={'/'}>
                 <Button> Go Back       </Button>
             </Link>
-                Beef Options
+                Biscuits Options
                 <Link to={'/cart'}>
     <Button style={{float: 'right'}} color="primary"> Go To Cart </Button>
 </Link>
@@ -83,4 +58,4 @@ const Cards_Chicken = ({ productType, cart }) => {
     );
 };
 
-export default Main_Chicken;
+export default Main_Beef;

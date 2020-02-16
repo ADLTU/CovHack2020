@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40df6557-5bd9-47cb-8b0d-8d84a646c21e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Beef.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Beef.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Cart.js" afterDir="false" />
     </list>
@@ -132,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581775153173</updated>
       <workItem from="1581775154424" duration="6184000" />
-      <workItem from="1581788659083" duration="20481000" />
+      <workItem from="1581788659083" duration="22542000" />
     </task>
     <servers />
   </component>
