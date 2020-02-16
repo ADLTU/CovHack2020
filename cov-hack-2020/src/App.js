@@ -19,6 +19,8 @@ import Butter from './components/Butter'
 import Cheese from './components/Cheese'
 import Condiments from './components/Condiments'
 import Spices from './components/Spices'
+import Cart from './components/Cart'
+
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router";
 
@@ -50,6 +52,7 @@ class App extends Component {
     <Route path={"/Cheese"} component={Cheese}/>
     <Route path={"/Condiments"} component={Condiments}/>
     <Route path={"/Spices"} component={Spices}/>
+    <Route path={"/Cart"} component={Cart}/>
         </Switch>
     </Router>
   );

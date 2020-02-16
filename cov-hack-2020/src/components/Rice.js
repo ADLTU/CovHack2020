@@ -29,6 +29,8 @@ const Cards_Rice = ({ productType, redirect }) => {
                 <Col sm="3">
                     <Card body md="auto">
                         <CardTitle> {product.name}</CardTitle>
+                        <Button> Add To Cart </Button>
+
                     </Card>
                 </Col>
             )
@@ -42,6 +44,9 @@ const Cards_Rice = ({ productType, redirect }) => {
                 <Button> Go Back </Button>
             </Link>
                 Rice Options
+                <Link to={'/cart'}>
+    <Button style={{float: 'right'}} color="primary"> Go To Cart </Button>
+</Link>
             </h1>
             <Row>
                 {cards(productType)}
