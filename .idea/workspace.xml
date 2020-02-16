@@ -3,10 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="40df6557-5bd9-47cb-8b0d-8d84a646c21e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Beef.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Beef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Biscuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Biscuits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Bread.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Bread.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Butter.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Butter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Beef.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Beef.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Cereals.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Cereals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Cheese.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Cheese.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Chicken.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Chicken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Coffee.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Coffee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Condiments.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Condiments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Fruits.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Fruits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Lamb.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Lamb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Milk.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Milk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Noodles.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Noodles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Pasta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Pork.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Pork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Rice.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Rice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Spices.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Spices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Tea.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Tea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/components/Vegtables.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/components/Vegtables.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581775153173</updated>
       <workItem from="1581775154424" duration="6184000" />
-      <workItem from="1581788659083" duration="14414000" />
+      <workItem from="1581788659083" duration="15205000" />
     </task>
     <servers />
   </component>

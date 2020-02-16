@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
+import { Container, Card, Button, CardTitle, Row, Col, CardImg } from 'reactstrap';
 import { Redirect } from 'react-router-dom'
 import { createBrowserHistory } from "history";
 import {Link} from 'react-router-dom'
@@ -45,6 +45,7 @@ const Cards = ({ productType, redirect }) => {
             return (
                 <Col sm="3">
                     <Card body md="auto">
+                        <CardImg src="f1.jpg"/>
                         <CardTitle> {product.name}</CardTitle>
                         <Link to={'/'+product.name}>
                         <Button> View Products </Button>

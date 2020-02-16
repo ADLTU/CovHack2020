@@ -42,7 +42,7 @@ const Cards_Tea = ({ productType, redirect }) => {
             <Link to={'/'}>
                 <Button> Go Back </Button>
             </Link>
-                Chicken Menu
+                Tea Options
             </h1>
             <Row>
                 {cards(productType)}

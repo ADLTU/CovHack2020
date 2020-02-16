@@ -12,7 +12,7 @@ import Coffee from './components/Coffee'
 import Tea from './components/Tea'
 import Biscuits from './components/Biscuits'
 import Fruits from './components/Fruits'
-import Vegtables from './components/Vegtables'
+import Vegetables from './components/Vegetables'
 import Bread from './components/Bread'
 import Milk from './components/Milk'
 import Butter from './components/Butter'
@@ -43,7 +43,7 @@ class App extends Component {
     <Route path={"/Tea"} component={Tea}/>
     <Route path={"/Biscuits"} component={Biscuits}/>
     <Route path={"/Fruits"} component={Fruits}/>
-    <Route path={"/Vegtables"} component={Vegtables}/>
+    <Route path={"/Vegetables"} component={Vegetables}/>
     <Route path={"/Bread"} component={Bread}/>
     <Route path={"/Milk"} component={Milk}/>
     <Route path={"/Butter"} component={Butter}/>

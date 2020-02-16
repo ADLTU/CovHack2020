@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Chicken extends Component {
+class Main_Fruits extends Component {
   state = {
     productType: [
       { name: 'Tesco Seedless Grape Selection Pack', isActive: false },
@@ -15,13 +15,13 @@ class Main_Chicken extends Component {
   render() {
     return (
       <div className="App">
-        <Cards_Chicken productType={this.state.productType} />
+        <Cards_Fruits productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Chicken = ({ productType, redirect }) => {
+const Cards_Fruits = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -42,7 +42,7 @@ const Cards_Chicken = ({ productType, redirect }) => {
             <Link to={'/'}>
                 <Button> Go Back </Button>
             </Link>
-                Chicken Menu
+                Fruits Options
             </h1>
             <Row>
                 {cards(productType)}
@@ -53,4 +53,4 @@ const Cards_Chicken = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Chicken;
+export default Main_Fruits;
