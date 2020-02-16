@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40df6557-5bd9-47cb-8b0d-8d84a646c21e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cov-hack-2020/src/Chicken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cov-hack-2020/src/quick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/items.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/Tesco_Cooking%20Sauces.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Beef.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Beef.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Biscuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Biscuits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Bread.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Bread.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Butter.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Butter.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581775153173</updated>
       <workItem from="1581775154424" duration="6184000" />
-      <workItem from="1581788659083" duration="13856000" />
+      <workItem from="1581788659083" duration="14414000" />
     </task>
     <servers />
   </component>

@@ -2,27 +2,27 @@ import React, {Component} from 'react';
 import { Container, Card, Button, CardTitle, Row, Col } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-class Main_Chicken extends Component {
+class Main_Bread extends Component {
   state = {
     productType: [
-      { name: 'Breast', isActive: false },
-      { name: 'Thighs', isActive: false },
-      { name: 'Wings', isActive: false },
-      { name: 'Drumsticks', isActive: false },
-      { name: 'Full Chicken', isActive: false }
+      { name: 'Wheat Bread', isActive: false },
+      { name: 'White Bread', isActive: false },
+      { name: 'Gluten Free Bread', isActive: false },
+      { name: '50/50 Bread', isActive: false },
+      { name: 'Crust-less Bread', isActive: false }
     ]
   }
 
   render() {
     return (
       <div className="App">
-        <Cards_Chicken productType={this.state.productType} />
+        <Cards_Bread productType={this.state.productType} />
       </div>
     )
   }
 }
 
-const Cards_Chicken = ({ productType, redirect }) => {
+const Cards_Bread = ({ productType, redirect }) => {
 
     const cards = (productType) => {
 
@@ -41,9 +41,9 @@ const Cards_Chicken = ({ productType, redirect }) => {
             <h1>
 
             <Link to={'/'}>
-                <Button> Go Back </Button>
+                <Button> Go Back       </Button>
             </Link>
-                Chicken Menu
+                Bread Options
             </h1>
             <Row>
                 {cards(productType)}
@@ -54,4 +54,4 @@ const Cards_Chicken = ({ productType, redirect }) => {
     );
 };
 
-export default Main_Chicken;
+export default Main_Bread;
