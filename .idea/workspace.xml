@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40df6557-5bd9-47cb-8b0d-8d84a646c21e" name="Default Changelist" comment="" />
+    <list default="true" id="40df6557-5bd9-47cb-8b0d-8d84a646c21e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cov-hack-2020/src/Chicken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cov-hack-2020/src/quick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cov-hack-2020/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cov-hack-2020/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/Tesco_Cooking%20Sauces.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -28,6 +39,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.quick">
     <configuration name="Scraper" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CovHack2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +98,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CovHack2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/AI_Project/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cov-hack-2020/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cov-hack-2020/src/quick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.quick" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -98,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581775153173</updated>
       <workItem from="1581775154424" duration="6184000" />
-      <workItem from="1581788659083" duration="5390000" />
+      <workItem from="1581788659083" duration="13856000" />
     </task>
     <servers />
   </component>
@@ -117,6 +156,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CovHack2020$Scraper.coverage" NAME="Scraper Coverage Results" MODIFIED="1581794301820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CovHack2020$Scraper.coverage" NAME="Scraper Coverage Results" MODIFIED="1581820714969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CovHack2020$quick.coverage" NAME="quick Coverage Results" MODIFIED="1581824654874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cov-hack-2020/src" />
   </component>
 </project>

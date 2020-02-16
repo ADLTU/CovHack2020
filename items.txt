@@ -6,7 +6,6 @@ Cereals-301-7
 Rice-257-6
 Pasta-293-7
 Noodles-265-6
-Cooking%20Sauces-131-3
 Coffee-192-4
 Tea-205-5
 Biscuits-265-6
